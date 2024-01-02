@@ -63,25 +63,32 @@ IDE THAT WAS USED (SQL): DataGrip
 
 ### Descripcion Archivos
 
-`createUser.sq`
+`createUser.sql`
+
 Este archivo se encarga de la creación del usuario en la base de datos Oracle. Es esencial para establecer los privilegios y el entorno de trabajo necesario para las operaciones de la base de datos.
+
 `DDL.sql`
+
 Contiene las instrucciones de Definición de Datos (DDL) para la construcción de la base de datos. Aquí se crean todas las tablas requeridas, definiendo su estructura y las relaciones entre ellas.
+
 `queries.sql`
+
 Este archivo alberga una variedad de consultas SQL para interactuar con la base de datos IMDb. Incluye desde consultas simples para una tabla hasta consultas avanzadas que implican múltiples tablas, uso de GROUP BY, y condiciones variadas. Se diseñó para extraer información específica como nombres y años de películas, detalles de actores y directores, y análisis por géneros y rankings.
+
 `rangeQueries.sql`
+
 Incluye la creación de vistas para manejar diferentes rangos de datos, utilizando la función DBMS_RANDOM.RANDOM para generar muestras aleatorias de varias tablas. Este archivo es clave para evaluar el rendimiento de las consultas SQL con distintos tamaños de datos y simular escenarios de bases de datos más complejos, incluyendo ejemplos de inserción de datos y creación de tablas para clientes, empleados, productos, pedidos y ventas.
 
 ### Login
 
-![image]("./img/login.png")
+![image](./img/login.png)
 
 ### Visualización Gráfica de la Base de Datos
 
-![image]("./img/UML.png")
+![image](./img/UML.png)
 
 ### Tablas
 
-![image]("./img/tables.png")
+![image](./img/tables.png)
 
 
